@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1efef;
+}
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.lea{
+    color: blue;
+}
+.nav-item{
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.main{
+        position: relative;
+        background: url("computer-keyboards-wallpaper-cropped.jpg");
+        min-height: 60vh;
+        background-size: cover;
+        background-position:center;
+        padding: 272px 0 272px;
+}
+.main h1{
+    margin-left: 230px;
+    margin-top: -100px;
+    width: 630px;
+    text-align: center;
+    padding-left: 10;
+    font-size: 2.6em;
+    color: rgb(255, 255, 255);
+}
+.main p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: rgb(239, 241, 236);
+}
+.main .btn{
+    background: #718093;
+    color: #fff;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-ee{
+    position: relative;
+    background: url("computer-keyboards-wallpaper-cropped.jpg");
+    min-height: 60vh;
+    background-size: cover;
+    background-position:center;
+    padding: 62px 0 52px;
+}
+
+.main-ee p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: white;
+}
+
+.main-ee .btn{
+    background: #718093;
+    color: #fff;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-ee h3{
+    margin-left: 120px;
+    margin-top: -100px;
+    width: 630px;
+    text-align: center;
+    padding-left: 10;
+    font-size: 2.6em;
+    color: rgb(255, 255, 255);
+}
+.btn .btn-primary{
+    align-items: center;
+}
+
+.card-img-top{
+    height: 120px;
+    width: 120px;
+}
+
+span{
+    font-size: 10px;
+    color: rgb(44, 44, 44);
+    font-weight: 700;
+    margin-left: -3px;
+}
+.card{
+    margin-left: 90px;
+    width: 314px;
+}
+.card-text{
+    padding: 3px 9px 3px 6px;
+    width: 280px;
+}
+h2{
+    font-size: 40px;
+    width: 460px;
+}
+h4{
+    margin-left: 70px;
+    font-size: 40px;
+    color: white; 
+    width: 400px;
+}
+.cbody p{
+    width: 200px;
+    font-size: 12px;
+    margin-left: 68px;
+}
+.column{
+    margin-left: 148px;
+    height: 200px;
+}
+.column p{
+    color: rgb(99, 98, 98);
+    font-weight: 600;
+    font-size: 14px;
+    width: 392px;
+    margin-left: -30px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.text p{
+    color: white;
+}
+
+h6{
+    margin-top: -16px;
+    color: rgb(45, 132, 167);
+}
+
+.body{
+    width: 411px;
+    padding: 6px 7px 8px 9px;
+}
+.title{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.card-img{
+width: 136px;
+display: grid;
+grid-template-rows: 150px 150px;
+grid-gap: 1rem;
+}
+.card-txt{
+    color: #727475;
+    font-weight: 600;
+    margin-left: 35px;
+    font-size: 14px;
+}
+.terms{
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: -690px;
+}
+.footer-container{
+    background-color: black;
+}
+.learn{
+    margin-top: 30px;
+    margin-left: -230px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(41, 83, 223);
+}
+.pp{
+    text-indent: 42px;
+    font-size: 11px;
+    width: 260px;
+}
+.course{
+    font-size: 12px;
+    text-indent: -12px;
+    margin-top: 30px;
+    color: rgb(128, 126, 126);
+}
+
+.category{
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+    font-size: 13px;
+}
+@media(max-width: 768px){
+    .main{
+        padding: 200px 0;
+    }
+    .main h2{
+        font-size: 2em;
+    }
+}
